@@ -1,4 +1,4 @@
-# credit-card-fraud-detection
+# Kredi Kartı Dolandırıcılık Tespiti
 
 Bu proje, kredi kartı dolandırıcılık işlemlerini tespit etmek için çeşitli makine öğrenimi modellerinin uygulanmasını ve değerlendirilmesini içerir. Proje, kredi kartı işlemlerine dair bir veri seti üzerinde çalışmakta ve bu işlemlerden dolandırıcılık niteliği taşıyanları tespit etmeyi amaçlamaktadır.
 
