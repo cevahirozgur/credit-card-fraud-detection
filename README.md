@@ -17,24 +17,24 @@ Kredi kartı dolandırıcılığı, finans sektöründe yıllık olarak önemli 
 # Kullanılan Modeller
 Bu çalışmada aşağıdaki makine öğrenimi modelleri kullanılmıştır:
 
-Lojistik Regresyon (Logistic Regression): Basit ve yorumlanabilir bir modeldir. Kredi kartı dolandırıcılık tespitinde temel bir referans model olarak kullanılır.
+- Lojistik Regresyon (Logistic Regression): Basit ve yorumlanabilir bir modeldir. Kredi kartı dolandırıcılık tespitinde temel bir referans model olarak kullanılır.
+- Karar Ağaçları (Decision Trees): Özellikler arasındaki doğrusal olmayan ilişkileri ve etkileşimleri ele alabilir.
 
-Karar Ağaçları (Decision Trees): Özellikler arasındaki doğrusal olmayan ilişkileri ve etkileşimleri ele alabilir.
+- Rastgele Ormanlar (Random Forest): Birden çok karar ağacının birleştirilmesiyle oluşturulan bir topluluk yöntemidir.
 
-Rastgele Ormanlar (Random Forest): Birden çok karar ağacının birleştirilmesiyle oluşturulan bir topluluk yöntemidir.
+- Gradyan Artırma Makineleri (Gradient Boosting Machines): Zayıf öğrenicilerin sıralı olarak birleşimiyle performansı artıran bir yöntemdir.
 
-Gradyan Artırma Makineleri (Gradient Boosting Machines): Zayıf öğrenicilerin sıralı olarak birleşimiyle performansı artıran bir yöntemdir.
-
-Destek Vektör Makineleri (Support Vector Machines): Sınıflandırma problemleri için karar sınırları belirleyen güçlü bir modeldir.
+- Destek Vektör Makineleri (Support Vector Machines): Sınıflandırma problemleri için karar sınırları belirleyen güçlü bir modeldir.
 
 Her modelin performansı çeşitli metriklerle değerlendirilmiştir, özellikle doğruluk, kesinlik, duyarlılık, F1 skoru ve ROC-AUC gibi metrikler dikkate alınmıştır.
 
 # Veri Seti
 Kullanılan veri seti, kredi kartı işlemlerini içermektedir ve aşağıdaki özellikleri barındırır:
 
-İşlem Miktarı (Transaction Amount): İşlemin parasal değeri.
-İşlemler Arasındaki Zaman (Time Between Transactions): İki işlem arasındaki süre.
-Satıcı Konumu (Merchant Location): İşlemin gerçekleştirildiği satıcının konumu.
+- İşlem Miktarı (Transaction Amount): İşlemin parasal değeri.
+- İşlemler Arasındaki Zaman (Time Between Transactions): İki işlem arasındaki süre.
+- Satıcı Konumu (Merchant Location): İşlemin gerçekleştirildiği satıcının konumu.
+
 Veri seti, yasal ve dolandırıcılık işlemlerini içerir ve dolandırıcılığı tespit edebilmek için çeşitli özellik mühendisliği teknikleri uygulanmıştır.
 
 Kurulum
